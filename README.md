@@ -30,6 +30,7 @@ North's Schematics Mod is a survival/creative mode mod that lets players save bl
 
 ## Example Structure File
 ```json
+{
 # The display name of the player that saved the file.
   "owner": "Dev",
 # When the structure is placed this value is set to true.
