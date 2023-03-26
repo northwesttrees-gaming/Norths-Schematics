@@ -24,6 +24,7 @@ North's Schematics Mod is a survival/creative mode mod that lets players save bl
 ## Planned Features
 - [ ] Add support for creative mode for removing structures completly
 - [ ] Add support for placement methods such as masking only specifc blocks
+- [ ] Trading mechanics for players to trade schematics in some way.
 - [ ] Marketplace for schematics allowing players to sell sechematics for diamonds.
 - [ ] Support for Fabric API
 
