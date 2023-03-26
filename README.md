@@ -24,18 +24,20 @@ North's Schematics Mod is a survival/creative mode mod that lets players save bl
 ## Planned Features
 - [ ] Add support for creative mode for removing structures completly
 - [ ] Add support for placement methods such as masking only specifc blocks
+- [ ] Marketplace for schematics allowing players to sell sechematics for diamonds.
 - [ ] Support for Fabric API
 
 ## Example Structure File
 ```json
-{
+# The display name of the player that saved the file.
+  "owner": "Dev",
+# When the structure is placed this value is set to true.
+# This is later used in script for survival mode player and tested to know if the structure has been placed or not.
+  "placed": false,
 # When the file is save so is the structure size from the fields
   "size_x": 20.0,
   "size_y": 15.0,
   "size_z": 20.0,
-# When the structure is placed this value is set to true.
-# This is later used in script for survival mode player and tested to know if the structure has been placed or not.
-  "placed": false,
 # Each block is saved with its rotation.
   "1_block": "{Name:\"minecraft:grass_block\",Properties:{snowy:\"false\"}}",
   "1_rotation": 2,
