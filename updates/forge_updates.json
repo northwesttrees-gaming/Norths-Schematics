@@ -1,0 +1,15 @@
+{
+  "homepage": "https://github.com/northwesttrees-gaming/norths_scematics",
+  "1.19.2": {
+    "1.1.0": "Ported the modification to 1.19.2"
+  },
+  "1.18.2": {
+    "1.0.0": "Added save mode block\nAdded place mode block\nAdded place and save menus\nAdded crafting recipes for survival mode\nAdded remove script for survival mode players\nAdded structure size cap for servers to help control preformance\nAdded target blocks that can help with getting the exact structure size\nAdded find mode for finding target blocks on all three axis directions\nAdded support for creative mode for cloning structures\nPlayers can move around while the structure is being loaded, but might pause for a bit until the blocks are placed\nScript runs mostly on server-side"
+  },
+  "promos": {
+    "1.19.2-latest": "1.0.0",
+    "1.19.2-recommended": "1.0.0",
+    "1.18.2-latest": "1.0.0",
+    "1.18.2-recommended": "1.0.0"
+  }
+}
