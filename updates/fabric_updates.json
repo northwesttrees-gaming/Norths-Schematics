@@ -1,10 +1,11 @@
 {
   "homepage": "https://github.com/northwesttrees-gaming/Norths-Schematics",
   "1.19.2": {
+    "1.1.0": "Added Locked Place block that now is used for generating the structure.\nAdded a creative tab for the modification contents.\nAdded new textures and updated older ones.\nAdded a new config file for structure block settings so it works for Fabric as well.\nAdded placement tags that can help with placement stages.\nAdded placement stages which place blocks with placement conditions after basic blocks are placed.\nUpdated the blocks resistance level, it is now set to 128,000.\nThe locked place block has a hardness set to 64,000 and is unbreakable in survival mode.\nReworked the placement method to place from block tick update instead of all at once.\nPlacement stages are needed for the new method.\nFixed the issue with large structures causing massive performance issues.",
     "1.0.0": "Added save mode block\nAdded place mode block\nAdded place and save menus\nAdded crafting recipes for survival mode\nAdded remove script for survival mode players\nAdded structure size cap for servers to help control preformance\nAdded target blocks that can help with getting the exact structure size\nAdded find mode for finding target blocks on all three axis directions\nAdded support for creative mode for cloning structures\nPlayers can move around while the structure is being loaded, but might pause for a bit until the blocks are placed\nScript runs mostly on server-side"
   },
   "promos": {
-    "1.19.2-latest": "1.0.0",
-    "1.19.2-recommended": "1.0.0"
+    "1.19.2-latest": "1.1.0",
+    "1.19.2-recommended": "1.1.0"
   }
 }
