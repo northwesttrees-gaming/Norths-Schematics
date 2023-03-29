@@ -66,9 +66,11 @@ North's Schematics Mod is a survival/creative mode mod that lets players save bl
 ```
 <profile>/config/norths_schematics/players/<player_name>/<file_name>.json
 <profile>/config/norths_schematics/players/<player_name>/backups/<file_name>.json
+<profile>/config/norths_schematics/structure_blocks/structure_block_<x>_<y>_<z>.json
 ```
 ### Servers
 ```
 <server_root>/config/norths_schematics/players/<player_name>/<file_name>.json
 <server_root>/config/norths_schematics/players/<player_name>/backups/<file_name>.json
+<server_root>/config/norths_schematics/structure_blocks/structure_block_<x>_<y>_<z>.json
 ```
